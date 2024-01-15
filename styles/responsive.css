@@ -223,6 +223,10 @@ p {
         font-size: 22px;
     }
 
+    .newsletter-img img {
+        height: 300px;
+    }
+
     .newsletter-form hr {
         margin: 16px 0;
     }
