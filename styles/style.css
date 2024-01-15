@@ -21,6 +21,7 @@
     font-weight: 800;
     border-radius: 8px;
     background: #FF5400;
+    cursor: pointer;
 }
 
 main section h1 {
@@ -323,4 +324,130 @@ header {
 
 /* choose us section style end */
 
+/* newsletter section style start */
+
+#newsletter {
+    display: flex;
+    gap: 24px;
+}
+
+.newsletter-form {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-form h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.newsletter-form hr {
+    margin: 24px 0;
+}
+
+.newsletter-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.newsletter-form form input {
+    width: 100%;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    outline: 0;
+}
+
+.newsletter-form form button {
+    width: 100%;
+    padding: 14px 0;
+}
+
+.newsletter-img-text {
+    max-width: 324px;
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 20px 40px;
+    color: #FFF;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+    transform-origin: left bottom;
+    transform: rotate(-20deg);
+
+}
+
+.newsletter-img {
+    position: relative;
+}
+
+.newsletter-img-text h4 {
+    font-size: 24px;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+.newsletter-img-text h2 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* newsletter section style end */
+
 /* main section style end */
+
+/* footer style start */
+
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 110px 385px;
+}
+
+.footer .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.footer .footer-logo h3 {
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer .footer-logo h3 .partner-span {
+    color: #FF5400;
+}
+
+.footer p {
+    margin-bottom: 32px;
+}
+
+.footer hr {
+    margin-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    margin: 50px 0;
+}
+
+.footer .footer-social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer .footer-social-icons i {
+    font-size: 28px;
+}
+
+/* footer style end */

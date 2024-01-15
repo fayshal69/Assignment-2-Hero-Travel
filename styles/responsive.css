@@ -184,4 +184,47 @@ p {
         margin-bottom: 16px;
     }
 
+    #newsletter {
+        padding: 0 20px;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .newsletter-form {
+        padding: 24px;
+    }
+
+    .newsletter-form h3 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .newsletter-form hr {
+        margin: 16px 0;
+    }
+
+    footer {
+        padding: 35px 20px;
+    } 
+
+    .footer .footer-logo h3 {
+        font-size: 22px;
+    }
+
+    .footer p {
+        margin-bottom: 16px;
+        font-size: 14px;
+    }
+
+    .footer hr {
+        margin: 24px 0;
+    }
+
+    .footer .footer-social-icons {
+        gap: 24px;
+    }
+
+    .footer .footer-social-icons i {
+        font-size: 24px;
+    }
 }
