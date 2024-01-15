@@ -54,6 +54,8 @@ p {
 
     .banner {
         padding: 32px 24px;
+        background-size: cover;
+        background-position: center;
     }
 
     .banner h1 {
@@ -205,6 +207,19 @@ p {
     .newsletter-form h3 {
         font-size: 20px;
         margin-bottom: 8px;
+    }
+
+    .newsletter-img-text {
+        padding: 15px 30px;
+        right: -15px;
+    }
+
+    .newsletter-img-text h4 {
+        font-size: 16px;
+    }
+
+    .newsletter-img-text h2 {
+        font-size: 22px;
     }
 
     .newsletter-form hr {
