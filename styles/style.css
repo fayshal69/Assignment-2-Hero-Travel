@@ -324,6 +324,170 @@ header {
 
 /* choose us section style end */
 
+/* deal and discount section style start */
+
+.deal-discount-content {
+    text-align: center;
+}
+
+.deal-discount-content h1 {
+    margin-bottom: 24px;
+}
+
+.deal-discount-content p {
+    margin-bottom: 48px;
+}
+
+.deal-discount-card {
+    background: url('../images/Group 39.png');
+    background-size: 100% 100%;
+    margin-bottom: 24px;
+    border-radius: 16px;
+}
+
+.offer-card {
+    padding: 50px;
+    max-width: 580px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.offer-card .part {
+    margin-right: 24px;
+}
+
+.offer-card .span-part {
+    margin-bottom: 26px;
+}
+
+.offer-card .part .icon {
+    margin-right: 8px;
+    color: #FF5400;
+}
+
+.offer-card h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.offer-card .p {
+    margin-bottom: 26px;
+}
+
+.offer-card h4 {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.offer-card button {
+    padding: 14px 25px;
+}
+
+.offer-card1 {
+    padding: 55px 55px 55px 535px;
+}
+
+.offer-card2 {
+    padding: 55px 535px 55px 55px;
+}
+
+/* deal and discount section style end */
+
+/* simple place section style start */
+
+#simple-place {
+    display: flex;
+    gap: 28px;
+}
+
+.simple-place-container {
+    width: calc((100% - 28px) / 2);
+}
+
+.simple-place-container h1 {
+    margin-bottom: 24px;
+}
+
+.simple-place-container p {
+    margin-bottom: 24px;
+}
+
+.simple-place-container ul {
+    margin-left: 15px;
+}
+
+.simple-place-container ul li {
+    margin-bottom: 16px;
+}
+
+.simple-place-container button {
+    margin-top: 16px;
+    padding: 15px 40px;
+}
+
+.simple-place-video iframe {
+    width: 600px;
+    height: 100%;
+    border-radius: 16px;
+}
+
+/* simple place section style end */
+
+/* travelers review section style start */
+
+.review-content {
+    text-align: center;
+}
+
+.review-content h1 {
+    margin-bottom: 24px;
+}
+
+.review-content p {
+    margin-bottom: 50px;
+}
+
+.review-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.review-container .review {
+    border: 2px solid rgba(41, 206, 246, 0.20);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-container .review img {
+    margin-bottom: 12px;
+}
+
+.review-container .review h4, h5 {
+    margin-bottom: 8px;
+}
+
+.review-container .review h5 {
+    margin-bottom: 5px;
+}
+
+.review-container .review .star-span i {
+    color: gold;
+}
+
+.review-container .review .star-span {
+    margin-left: 8px;
+}
+
+/* travelers review section style end */
+
 /* newsletter section style start */
 
 #newsletter {

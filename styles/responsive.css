@@ -184,6 +184,14 @@ p {
         margin-bottom: 16px;
     }
 
+    #travelers-review {
+        padding: 0 20px;
+    }
+
+    .review-container {
+        grid-template-columns: 1fr;
+    }
+
     #newsletter {
         padding: 0 20px;
         gap: 16px;
@@ -226,5 +234,66 @@ p {
 
     .footer .footer-social-icons i {
         font-size: 24px;
+    }
+
+    #simple-place {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .simple-place-container {
+        width: 100%;
+    }
+
+    .simple-place-video iframe {
+        width: 100%;
+        height: 220px;
+    }
+
+    .simple-place-container p, .simple-place-container h1 {
+        margin-bottom: 16px;
+    }
+
+    .simple-place-container button {
+        margin-top: 8px;
+    }
+
+    .simple-place-container ul li {
+        font-size: 14px;
+    }
+
+    #deal-discount {
+        padding: 0 20px;
+    }
+
+    .deal-discount-content h1,
+    .deal-discount-content p {
+        margin-bottom: 16px;
+    }
+
+    .deal-discount-card {
+        padding: 16px;
+        margin-bottom: 16px;
+    }
+
+    .offer-card {
+        padding: 24px;
+    }
+
+    .offer-card .span-part {
+        margin-bottom: 18px;
+    }
+
+    .offer-card h4 {
+        margin-bottom: 16px;
+    }
+
+    .offer-card1, .offer-card2 {
+        padding: 185px 15px 15px;
+    }  
+
+    .deal-discount-card {
+        background-size: cover;
+        background-position: center;
     }
 }
