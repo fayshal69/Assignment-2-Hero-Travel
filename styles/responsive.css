@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
     main section h1 {
         font-size: 20px;
     }
@@ -254,7 +254,7 @@
 
     .simple-place-video iframe {
         width: 100%;
-        height: 220px;
+        height: 230px;
     }
 
     .simple-place-container p, .simple-place-container h1 {
